@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzter.Lib", "src\FizzBuzzter.Lib\FizzBuzzter.Lib.csproj", "{17EDCEAE-F54B-4051-AF6F-0118F8DD2397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzter.Lib.Tests", "src\FizzBuzzter.Lib.Tests\FizzBuzzter.Lib.Tests.csproj", "{094B44D7-A19D-44D1-AF18-E0A84D091261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzter.Console", "src\FizzBuzzter.App\FizzBuzzter.Console.csproj", "{5521ABE1-50FA-4686-9769-D1156E2CCD6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{EB236C0D-B5BF-4A6A-A22E-1851D03BFFE0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17EDCEAE-F54B-4051-AF6F-0118F8DD2397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EDCEAE-F54B-4051-AF6F-0118F8DD2397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EDCEAE-F54B-4051-AF6F-0118F8DD2397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EDCEAE-F54B-4051-AF6F-0118F8DD2397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094B44D7-A19D-44D1-AF18-E0A84D091261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094B44D7-A19D-44D1-AF18-E0A84D091261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094B44D7-A19D-44D1-AF18-E0A84D091261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094B44D7-A19D-44D1-AF18-E0A84D091261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5521ABE1-50FA-4686-9769-D1156E2CCD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5521ABE1-50FA-4686-9769-D1156E2CCD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5521ABE1-50FA-4686-9769-D1156E2CCD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5521ABE1-50FA-4686-9769-D1156E2CCD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17410262-1AF9-4EBC-BE04-C8445ED11496}
+	EndGlobalSection
+EndGlobal
