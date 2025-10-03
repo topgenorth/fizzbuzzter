@@ -4,11 +4,11 @@
     ///     Takes an array of work pairs, and will build a FizzBuzzterHandler chain from them.
     /// </summary>
     /// <remarks>A facade around BuildFizzBuzzterHandlersIncrementally.</remarks>
-    public class BuildGenericFizzBuzzterChainFromCollectionOfWordPairs : IFizzBuzzterChainBuilder
+    public class BuildGenericFizzBuzzterChainFromCollectionOfDivisorWords : IFizzBuzzterChainBuilder
     {
         readonly DivisorWord[] _divisorWords;
 
-        public BuildGenericFizzBuzzterChainFromCollectionOfWordPairs(DivisorWord[] divisorWords)
+        public BuildGenericFizzBuzzterChainFromCollectionOfDivisorWords(DivisorWord[] divisorWords)
         {
             _divisorWords = divisorWords;
         }

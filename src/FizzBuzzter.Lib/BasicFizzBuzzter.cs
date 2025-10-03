@@ -29,9 +29,9 @@
         /// <summary>
         ///     A constructor that will take an array of DivisorWord pairs to build the handler chain.
         /// </summary>
-        /// <param name="wordPairs"></param>
-        public BasicFizzBuzzter(DivisorWord[] wordPairs)
-            : this(new BuildGenericFizzBuzzterChainFromCollectionOfWordPairs(wordPairs))
+        /// <param name="divisorWords"></param>
+        public BasicFizzBuzzter(DivisorWord[] divisorWords)
+            : this(new BuildGenericFizzBuzzterChainFromCollectionOfDivisorWords(divisorWords))
         {
         }
 

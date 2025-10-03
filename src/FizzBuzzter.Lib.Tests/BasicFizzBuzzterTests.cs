@@ -26,11 +26,11 @@ namespace FizzBuzzter
             MemberType = typeof(LinesToFizzBuzzAndTheExpectedResult))]
         public void Should_return_expected_results_for_1_to_15(int index, string value)
         {
-            // [TO20251002] TODO This is brittle test because it depends on BuildFizzBuzzterHandlerFromCollectionOfWordPairs
+            // [TO20251002] TODO This is brittle test because it depends on BuildFizzBuzzterHandlerFromCollectionOfDivisorWords
             // working correctly.  A better test would be to use a mock IFizzBuzzterHandlerBuilder, or write a test-specific
             // implementation of IFizzBuzzterHandlerBuilder that returns a known FizzBuzzterHandler
             IFizzBuzzterChainBuilder fizzBuzzterChainBuilder =
-                new BuildGenericFizzBuzzterChainFromCollectionOfWordPairs([
+                new BuildGenericFizzBuzzterChainFromCollectionOfDivisorWords([
                     new DivisorWord(3, "Tom"), new DivisorWord(5, "Opgenorth")
                 ]);
             BasicFizzBuzzter x = new(fizzBuzzterChainBuilder);

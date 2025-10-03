@@ -2,12 +2,12 @@
 
 namespace FizzBuzzter
 {
-    public class BuildGenericFizzBuzzterChainFromCollectionOfWordPairsTests
+    public class BuildGenericFizzBuzzterChainFromCollectionOfDivisorWordsTests
     {
         [Fact]
         public void Should_have_only_DefaultFizzBuzzterHandler_when_no_DivisorWords()
         {
-            BuildGenericFizzBuzzterChainFromCollectionOfWordPairs builder = new([]);
+            BuildGenericFizzBuzzterChainFromCollectionOfDivisorWords builder = new([]);
             FizzBuzzterHandler handler = builder.Build();
 
             handler.ShouldBeOfType<DefaultFizzBuzzterHandler>();
@@ -17,7 +17,7 @@ namespace FizzBuzzter
         [Fact]
         public void Should_build_a_chain_with_correct_number_of_handlers()
         {
-            BuildGenericFizzBuzzterChainFromCollectionOfWordPairs builder = new([
+            BuildGenericFizzBuzzterChainFromCollectionOfDivisorWords builder = new([
                 new DivisorWord(3, "Fizz"),
                 new DivisorWord(5, "Buzz"),
                 new DivisorWord(7, "Fazz"),
