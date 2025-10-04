@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <RootNamespace>FizzBuzzter</RootNamespace>
-    <LangVersion>13</LangVersion>
+    <LangVersion>12</LangVersion>
   </PropertyGroup>
 
 </Project>
